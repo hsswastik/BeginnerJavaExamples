@@ -1,0 +1,17 @@
+There is few things you need to know before seeing the code
+
+
+In Java, if a loop statement contains only a single logical statement, you can exclude the use of brackets. This applies to both for loops and if statements. 
+It allows for a more concise and readable code structure. 
+
+ex: 
+for (int i = 0; i < 5; i++)
+    System.out.println(i);
+
+Additionally, you can use the enhanced for-each loop to easily iterate over elements in an array, eliminating the need for manual indexing and providing a simpler syntax.
+
+ex:
+int[] numbers = {1, 2, 3, 4, 5};
+for (int number : numbers) {
+    System.out.println(number);
+}
